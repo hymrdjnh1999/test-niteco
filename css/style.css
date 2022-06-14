@@ -12,26 +12,104 @@
 }
 
 .hero-img {
-    height: 400px;
+    height: auto;
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url('../images/herohob.jpg');
 }
 
 .hero-content-container {
-    width: max-content;
     margin-left: 10%;
     background-color: black;
     top: 50%;
-    height: 350px;
     transform: translateY(-50%);
+    padding: 40px 120px 40px 40px;
 }
 
-.primary-color {
-    color: #dec117;
+.hero-btn-container {
+    margin-top: 60px;
 }
 
-.primary-backround {
-    background-color: #dec117;
+.hero-btn {
+    padding: 15px 40px;
+    width: max-content !important;
+}
+
+.main-content-container {
+    background-color: #21201e;
+    margin: 0;
+    padding: 0;
+    padding: 60px 10% 0 10%;
+}
+
+.main-content-title {
+    padding-bottom: 60px;
+}
+
+.pics_in_a_row {
+    margin: 25px 0;
+}
+
+.pics_in_a_row>div:not(:last-child) {
+    margin-right: 2%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.pics_in_a_row {
+    display: flex;
+}
+
+.hob-title{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.main-content-list li img{
+    height: 350px;
+}
+
+.hob-title{
+    height: 80px;
+    width: 100%;
+}
+
+.hob-content{
+    margin-top: 60px;
+    display: block;
+}
+
+.hob-item-content {
+    height: 400px;
+}
+
+.hob-content.hob-content--sub{
+    margin-top: 30px;
+    display: block;
+}
+
+.btn.btn-primary.hob-item-btn{
+    width: 100%;
+}
+
+.hob-item-price{
+    margin-top: 30px;
+    padding-bottom: 90px;
+}
+
+.dashline-bottom {
+    height: 1px;
+    width: 100%;
+    padding: 0 10%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.main-content-list{
+    width: 100%;
+}
+
+.footer {
+    padding-bottom: 60px;
 }
