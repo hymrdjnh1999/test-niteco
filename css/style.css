@@ -1,0 +1,37 @@
+.nav-bar-container {
+    width: 100%;
+    background-color: black;
+    padding: 10px 10%;
+}
+
+.nav-title {
+    color: #c3c4c7;
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 40px;
+}
+
+.hero-img {
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../images/herohob.jpg');
+}
+
+.hero-content-container {
+    width: max-content;
+    margin-left: 10%;
+    background-color: black;
+    top: 50%;
+    height: 350px;
+    transform: translateY(-50%);
+}
+
+.primary-color {
+    color: #dec117;
+}
+
+.primary-backround {
+    background-color: #dec117;
+}
